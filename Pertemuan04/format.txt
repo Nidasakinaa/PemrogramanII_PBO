@@ -1,0 +1,14 @@
+Bagian I
+
+14.) 'myType' bukan merupakan Inheritance/warisan dari Product_714220040. Tingkat akses 'myType' yang tertulis merupakan protected yang mana hanya member bersangkutan yg dapat mengakses dari class tersebut atau class lain yang merupakan turunan(inheritance) dari class yang bersangkutan. nah agar tidak error anda dapt mengubah aksesnya menjadi private yang bisa diakses di tempat yang mendefinisikan  
+
+19.) Outputnya hanya berupa null/kosong karena properti MyType tidak diatur constructor 
+
+24.) Outputnya hanya bertuliskan 'DVD' karena properti 'MyType' sudah diatur menggunakan string 'DVD'
+
+Bagian II
+
+8.) karena parameter constructor yang tertulis tidak melakukan perintah apapun dengan parameter title. Property MyTitle seharusnya memiliki tipe data string yang digunakan sebagai string dalam pemanggilan Console.WriteLine, serta Pada baris Console.WriteLine, terdapat tanda kutip ganda ("") ekstra yang mengakibatkan format menjadi salah.
+
+12.)Judul buku yang tampil pada output pada constructor Book_714220040 telah diubah dengan pemanggilan konstruktor base yang akan menginisialisasi dari property type dan title dari kelas Product_714220040
+
