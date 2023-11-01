@@ -88,7 +88,7 @@
             // textBoxName
             // 
             this.textBoxName.Location = new System.Drawing.Point(416, 83);
-            this.textBoxName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxName.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(321, 29);
             this.textBoxName.TabIndex = 3;
@@ -100,7 +100,7 @@
             "Perempuan",
             "Laki-laki"});
             this.CBJK.Location = new System.Drawing.Point(416, 131);
-            this.CBJK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBJK.Margin = new System.Windows.Forms.Padding(4);
             this.CBJK.Name = "CBJK";
             this.CBJK.Size = new System.Drawing.Size(218, 32);
             this.CBJK.TabIndex = 4;
@@ -109,7 +109,7 @@
             // DateTimePicker
             // 
             this.DateTimePicker.Location = new System.Drawing.Point(416, 185);
-            this.DateTimePicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DateTimePicker.Margin = new System.Windows.Forms.Padding(4);
             this.DateTimePicker.Name = "DateTimePicker";
             this.DateTimePicker.Size = new System.Drawing.Size(321, 29);
             this.DateTimePicker.TabIndex = 5;
@@ -125,9 +125,9 @@
             this.GBPK.Controls.Add(this.CBGitar);
             this.GBPK.Controls.Add(this.CBBiola);
             this.GBPK.Location = new System.Drawing.Point(48, 244);
-            this.GBPK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GBPK.Margin = new System.Windows.Forms.Padding(4);
             this.GBPK.Name = "GBPK";
-            this.GBPK.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GBPK.Padding = new System.Windows.Forms.Padding(4);
             this.GBPK.Size = new System.Drawing.Size(350, 249);
             this.GBPK.TabIndex = 6;
             this.GBPK.TabStop = false;
@@ -137,7 +137,7 @@
             // 
             this.CBKomposer.AutoSize = true;
             this.CBKomposer.Location = new System.Drawing.Point(169, 199);
-            this.CBKomposer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBKomposer.Margin = new System.Windows.Forms.Padding(4);
             this.CBKomposer.Name = "CBKomposer";
             this.CBKomposer.Size = new System.Drawing.Size(128, 29);
             this.CBKomposer.TabIndex = 8;
@@ -148,7 +148,7 @@
             // 
             this.CBVokal.AutoSize = true;
             this.CBVokal.Location = new System.Drawing.Point(169, 148);
-            this.CBVokal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBVokal.Margin = new System.Windows.Forms.Padding(4);
             this.CBVokal.Name = "CBVokal";
             this.CBVokal.Size = new System.Drawing.Size(88, 29);
             this.CBVokal.TabIndex = 6;
@@ -159,7 +159,7 @@
             // 
             this.CBDrum.AutoSize = true;
             this.CBDrum.Location = new System.Drawing.Point(169, 98);
-            this.CBDrum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBDrum.Margin = new System.Windows.Forms.Padding(4);
             this.CBDrum.Name = "CBDrum";
             this.CBDrum.Size = new System.Drawing.Size(85, 29);
             this.CBDrum.TabIndex = 5;
@@ -170,7 +170,7 @@
             // 
             this.CBPiano.AutoSize = true;
             this.CBPiano.Location = new System.Drawing.Point(169, 41);
-            this.CBPiano.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBPiano.Margin = new System.Windows.Forms.Padding(4);
             this.CBPiano.Name = "CBPiano";
             this.CBPiano.Size = new System.Drawing.Size(88, 29);
             this.CBPiano.TabIndex = 4;
@@ -181,7 +181,7 @@
             // 
             this.CBKonduktor.AutoSize = true;
             this.CBKonduktor.Location = new System.Drawing.Point(16, 199);
-            this.CBKonduktor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBKonduktor.Margin = new System.Windows.Forms.Padding(4);
             this.CBKonduktor.Name = "CBKonduktor";
             this.CBKonduktor.Size = new System.Drawing.Size(128, 29);
             this.CBKonduktor.TabIndex = 3;
@@ -192,7 +192,7 @@
             // 
             this.CBSaxophone.AutoSize = true;
             this.CBSaxophone.Location = new System.Drawing.Point(16, 148);
-            this.CBSaxophone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBSaxophone.Margin = new System.Windows.Forms.Padding(4);
             this.CBSaxophone.Name = "CBSaxophone";
             this.CBSaxophone.Size = new System.Drawing.Size(139, 29);
             this.CBSaxophone.TabIndex = 2;
@@ -203,7 +203,7 @@
             // 
             this.CBGitar.AutoSize = true;
             this.CBGitar.Location = new System.Drawing.Point(16, 98);
-            this.CBGitar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBGitar.Margin = new System.Windows.Forms.Padding(4);
             this.CBGitar.Name = "CBGitar";
             this.CBGitar.Size = new System.Drawing.Size(79, 29);
             this.CBGitar.TabIndex = 1;
@@ -214,7 +214,7 @@
             // 
             this.CBBiola.AutoSize = true;
             this.CBBiola.Location = new System.Drawing.Point(16, 39);
-            this.CBBiola.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBBiola.Margin = new System.Windows.Forms.Padding(4);
             this.CBBiola.Name = "CBBiola";
             this.CBBiola.Size = new System.Drawing.Size(81, 29);
             this.CBBiola.TabIndex = 0;
@@ -228,9 +228,9 @@
             this.groupBoxPJ.Controls.Add(this.RB2);
             this.groupBoxPJ.Controls.Add(this.RB1);
             this.groupBoxPJ.Location = new System.Drawing.Point(462, 244);
-            this.groupBoxPJ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxPJ.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxPJ.Name = "groupBoxPJ";
-            this.groupBoxPJ.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxPJ.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxPJ.Size = new System.Drawing.Size(363, 249);
             this.groupBoxPJ.TabIndex = 7;
             this.groupBoxPJ.TabStop = false;
@@ -240,7 +240,7 @@
             // 
             this.RB4.AutoSize = true;
             this.RB4.Location = new System.Drawing.Point(24, 177);
-            this.RB4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RB4.Margin = new System.Windows.Forms.Padding(4);
             this.RB4.Name = "RB4";
             this.RB4.Size = new System.Drawing.Size(227, 29);
             this.RB4.TabIndex = 8;
@@ -252,7 +252,7 @@
             // 
             this.RB3.AutoSize = true;
             this.RB3.Location = new System.Drawing.Point(24, 133);
-            this.RB3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RB3.Margin = new System.Windows.Forms.Padding(4);
             this.RB3.Name = "RB3";
             this.RB3.Size = new System.Drawing.Size(289, 29);
             this.RB3.TabIndex = 2;
@@ -264,7 +264,7 @@
             // 
             this.RB2.AutoSize = true;
             this.RB2.Location = new System.Drawing.Point(24, 85);
-            this.RB2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RB2.Margin = new System.Windows.Forms.Padding(4);
             this.RB2.Name = "RB2";
             this.RB2.Size = new System.Drawing.Size(278, 29);
             this.RB2.TabIndex = 1;
@@ -276,7 +276,7 @@
             // 
             this.RB1.AutoSize = true;
             this.RB1.Location = new System.Drawing.Point(24, 39);
-            this.RB1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RB1.Margin = new System.Windows.Forms.Padding(4);
             this.RB1.Name = "RB1";
             this.RB1.Size = new System.Drawing.Size(269, 29);
             this.RB1.TabIndex = 0;
@@ -287,7 +287,7 @@
             // btnTampilkan
             // 
             this.btnTampilkan.Location = new System.Drawing.Point(280, 539);
-            this.btnTampilkan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTampilkan.Margin = new System.Windows.Forms.Padding(4);
             this.btnTampilkan.Name = "btnTampilkan";
             this.btnTampilkan.Size = new System.Drawing.Size(117, 48);
             this.btnTampilkan.TabIndex = 8;
@@ -298,7 +298,7 @@
             // btnSelesai
             // 
             this.btnSelesai.Location = new System.Drawing.Point(462, 539);
-            this.btnSelesai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSelesai.Margin = new System.Windows.Forms.Padding(4);
             this.btnSelesai.Name = "btnSelesai";
             this.btnSelesai.Size = new System.Drawing.Size(104, 48);
             this.btnSelesai.TabIndex = 9;
@@ -316,6 +316,7 @@
             this.label1.Size = new System.Drawing.Size(223, 25);
             this.label1.TabIndex = 10;
             this.label1.Text = "FORM PENDAFTARAN";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // FormAstraMusicSchool
             // 
@@ -334,7 +335,7 @@
             this.Controls.Add(this.labelTL);
             this.Controls.Add(this.LabelJK);
             this.Controls.Add(this.lblName);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormAstraMusicSchool";
             this.Text = " ";
             this.GBPK.ResumeLayout(false);

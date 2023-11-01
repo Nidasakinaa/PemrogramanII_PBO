@@ -24,17 +24,13 @@ namespace P5_4_714220040
 
             if (textBoxName.Text == "")
             {
-                MessageBox.Show("Nama harus diisi!",
-                                    "Warning!",
-                                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Nama harus diisi!", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (CBJK.Text != "Laki-laki" && CBJK.Text != "Perempuan")
             {
-                MessageBox.Show("Jenis kelamin tidak valid!",
-                                    "Warning!",
-                                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Jenis kelamin tidak valid!", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -75,7 +71,7 @@ namespace P5_4_714220040
 
             if (string.IsNullOrWhiteSpace(kelas))
             {
-                MessageBox.Show("Harus memilih salah satu atau lebih dari pilihan kelas!", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Pilih Kelas!", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -97,9 +93,7 @@ namespace P5_4_714220040
             }
             else
             {
-                MessageBox.Show("Harus memilih salah satu dari pilihan jadwal!",
-                    "Warning!",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Pilih jadwal!", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -115,6 +109,11 @@ namespace P5_4_714220040
         private void btnSelesai_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
