@@ -20,8 +20,8 @@ namespace P10_1_714220040
         public void Tampil()
         {
             string query = "SELECT*FROM t_mahasiswa";
-            //Query DB Get MHS
-            DataMahasiswa.DataSource = koneksi.ShowData("SELECT*FROM t_mahasiswa");
+            //Query DB Get MGS
+            DataMahasiswa.DataSource = koneksi.ShowData(query);
         }
         public Form1()
         {
@@ -32,10 +32,11 @@ namespace P10_1_714220040
         {
             npm.Text = "";
             nama.Text = "";
-            angkatan.Text = "-1";
+            angkatan.Text = "";
             alamat.Text = "";
             email.Text = "";
             nohp.Text = "";
+            tbCariData.Text = "";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -54,7 +55,7 @@ namespace P10_1_714220040
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
-            if (npm.Text == "" && nama.Text == "" && angkatan.SelectedIndex == -1 && alamat.Text == "" && email.Text == "" && nohp.Text == "")
+            if (npm.Text == "" || nama.Text == "" || angkatan.SelectedIndex == -1 || alamat.Text == "" || email.Text == "" || nohp.Text == "")
             {
                 MessageBox.Show("Data tidak boleh kosong", "Peringatan",
                 MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -129,6 +130,12 @@ namespace P10_1_714220040
                 ResetForm();
                 Tampil();
             }
+        }
+
+        private void tbCariData_TextChanged(object sender, EventArgs e)
+        {
+            //Query DB search Data
+            DataMahasiswa.DataSource = koneksi.ShowData("SELECT * FROM t_mahasiswa WHERE npm LIKE '%' '" + tbCariData.Text + "' '%' OR nama LIKE '%' '" + tbCariData.Text + "' '%'");
         }
     }
 }
